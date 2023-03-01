@@ -1,0 +1,12 @@
+
+            /*HashMap<int> map = new HashMap<int>(10);
+            map.SetKey("banana", 10);
+            map.SetKey("apple", 1000);
+            Console.WriteLine("Banana:" + map.GetValue("banana"));
+            map.UpdateKey("apple", -8);
+            map.DeleteValue("apple");
+            //map.GetValue("apple")
+            */
+            //Console.WriteLine($"Final values: (banana)({map.GetValue("banana")})");
+            //Two Sum Credit To LeetCode (Question 1 - Two sum)
+            //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target
