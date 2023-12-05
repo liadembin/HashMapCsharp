@@ -14,6 +14,10 @@ namespace HashMap
             this.size = size;
             values = new Bucket<K, T>[size];
         }
+        public HashMap(){
+            this.size = 16;
+            values = new Bucket<K,T>[size];
+        }
         public bool Exists(K s)
         {
             return this.values[Hash(s, size)] != null;
